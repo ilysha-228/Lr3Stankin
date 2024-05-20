@@ -1,0 +1,109 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Sans', cursive;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+.content{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.skills{
+    position: relative;
+    height: 100%;
+    width: 60%;
+    background-color: rgb(89, 89, 89);
+    overflow: auto;
+}
+.info{
+    position: relative;
+    height: 100%;
+    width: 40%;
+    background-color: rgb(114, 30, 30);
+}
+.image{
+    position: relative;
+    margin: auto;
+    top: 10%;
+    height: 500px;
+    width: 500px;
+    border-radius: 400px;
+    background-color: rgb(255, 255, 255);
+}
+.name{
+    position: relative;
+    margin: auto;
+    top: 13%;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 0, 0);
+    font-size: 45px;
+    text-align: center;
+}
+.rev{
+    position: relative;
+    margin: auto;
+    top: 15%;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+}
+a{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+.skill-block{
+    position: relative;
+    margin-top: 5%;
+    border-radius: 50px;
+    left: 5%;
+    width: 90%;
+    background-color: rgb(200, 200, 200);
+    display: flex;
+}
+.photo{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 180px;
+    width: 180px;
+    border-radius: 180px;
+    background-color: rgb(219, 219, 219);
+}
+.text-content{
+    position: relative;
+    height: 200px;
+    left: 20px;
+    width: auto;
+    background-color: rgb(200, 200, 200);
+}
+.work_name{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    text-align: left;
+    line-height: 2em;
+}
+.work_rev{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(26, 70, 25);
+    font-size: 25px;
+    text-align: left;
+}
+::-webkit-scrollbar { width: 0px; height: 0px;}
